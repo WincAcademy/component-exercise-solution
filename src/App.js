@@ -4,8 +4,7 @@ import { Button } from './components/Button';
 export const App = () => {
 	return (
 		<div className="App">
-			<h1>Hello there!</h1>
-			<h3>Welcome to our cafe</h3>
+			<h1>Welcome to our cafe!</h1>
 			<Button />
 		</div>
 	);
