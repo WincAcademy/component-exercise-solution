@@ -1,6 +1,6 @@
-import './Button.css';
+import './DrinkButtons.css';
 
-export const Button = () => {
+export const DrinkButtons = () => {
 	return (
 		<>
 			<h2>Would you like tea or coffee?</h2>

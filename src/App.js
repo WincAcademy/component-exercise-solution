@@ -1,11 +1,13 @@
 import './App.css';
-import { Button } from './components/Button';
+import { DrinkButtons } from './components/DrinkButtons';
 
 export const App = () => {
+	const greeting = 'Welcome to our cafe!';
+
 	return (
 		<div className="App">
-			<h1>Welcome to our cafe!</h1>
-			<Button />
+			<h1>{greeting}</h1>
+			<DrinkButtons />
 		</div>
 	);
 };
